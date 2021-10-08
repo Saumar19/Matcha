@@ -5,6 +5,7 @@ body{
 }
 .main {
   text-align: center;
+  margin-top: 285px;
 }
 
 .main h1 {
@@ -39,15 +40,27 @@ height: 55px;
 }
 
 .header {
-    margin: 40px 20px 0;
+  height: 60px;
+    margin: 0px 20px;
     font-size: 0;
+    line-height: 45px;
     flex-flow: row nowrap;
     display: flex;
     align-items: center;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #fffbf7;
+    padding-bottom: 15px;
   }
 
 .header li {
     display: inline-block;
+    margin-left: 25px;
+    color: #025157;
+    font-size: 14px;
   }
 
 .header > * {
@@ -89,8 +102,8 @@ a:hover {
   color: white;
   background-color: #67b549;
   border: none;
-  padding: 8px 8px;
-  border-radius: 4px;
+  padding: 12px 14px;
+  border-radius: 5px;
 }
 
 .email {
@@ -100,11 +113,55 @@ a:hover {
     max-width: 250px;
     height: 100%;
     border-radius: 8px;
-
 }
+
 #imagen1 {
   width:70%;
   display: block;
   margin: auto;
 }
 
+.publish{
+  display: flex;
+  margin: 100px auto;
+  width: 70%;
+  align-items: center;
+}
+.video-zone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.publish .video-zone{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding-right: 20px;
+}
+.publicitary-text h3{
+  color: #025157;
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.publicitary-text > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.publicitary-text > form {
+  display: flex;
+}
+
+.publicitary-text > form p {
+  color: #025157;
+  margin-right: 18px;
+}
+.publish .video-zone img{
+  width: 120px;
+  margin-top: 10px;
+}
